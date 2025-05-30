@@ -12,7 +12,7 @@ def split_data(data, num_parts):
             for i in range(num_parts)]
 
 if __name__ == "__main__": 
-    data = list(range(100_000_000)) 
+    data = list(range(1_000_000)) 
     # Синхронное вычисление
     start = time.time()
     result = calculate_chunk(data)
